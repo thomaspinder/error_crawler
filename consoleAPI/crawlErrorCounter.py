@@ -84,4 +84,4 @@ out_ap['Error Count'] = out_ap['Error Count'].astype(int)
 out_ap = out_ap.sort_values("Error Count", ascending=0)
 
 filename = "crawl_errors_" + str(now.year) + "_" + str(now.month) + "_" + str(now.day) + ".csv"
-# out_ap.to_csv("C:/Users/User/Dropbox (Novi.Digital)/SEO 247 - Root Folder/Strategic Implementation/Google Webmaster Tools Error Reports/"+filename)
+out_ap.to_csv("C:/Users/User/Dropbox (Novi.Digital)\SEO 247 - Root Folder/Strategic Implementation/Google Webmaster Tools Error Reports/"+filename)
